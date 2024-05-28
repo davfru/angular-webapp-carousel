@@ -1,1 +1,5 @@
-Home component
+<div class="w-screen h-screen p-12 flex flex-col items-center overflow-hidden">
+    <app-search-input (imageDataChange)="setImageData($event)"></app-search-input>
+    <app-carousel [imageData]="imageData"></app-carousel>
+</div>
+  

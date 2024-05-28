@@ -15,6 +15,13 @@ export class HomeComponent extends BaseComponent implements OnInit {
   ngOnInit(): void {
   
   }
+
+  imageData: string[] = [];
+
+  setImageData(data: string[]) {
+    console.log('setImageData');
+    this.imageData = data;
+  }
     
 }
   

@@ -7,12 +7,11 @@ import { HttpClient, provideHttpClient } from "@angular/common/http";
 import { BrowserAnimationsModule, provideAnimations } from "@angular/platform-browser/animations";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
-import { LottieModule, provideLottieOptions } from 'ngx-lottie';
+import { provideLottieOptions } from 'ngx-lottie';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
-
 
 @NgModule({
   declarations: [

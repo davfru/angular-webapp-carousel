@@ -9,6 +9,8 @@ import { ButtonComponent } from "./atoms/button/button.component";
 import { TranslateModule } from "@ngx-translate/core";
 import { LottieAnimationComponent } from './atoms/lottie/lottie-animation.component';
 import { LottieComponent } from 'ngx-lottie';
+import { SearchInputComponent } from './search-input/search-input.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 const exportedComponents = [
   HeaderComponent,
@@ -16,7 +18,9 @@ const exportedComponents = [
   LoaderComponent,
   ModalComponent,
   LottieAnimationComponent,
-  ButtonComponent
+  ButtonComponent,
+  SearchInputComponent,
+  CarouselComponent
 ];
 
 const exportedModules = [

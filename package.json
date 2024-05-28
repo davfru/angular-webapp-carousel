@@ -24,10 +24,11 @@
     "@dynamic-mapper/mapper": "^1.10.4",
     "@ngx-translate/core": "^15.0.0",
     "@ngx-translate/http-loader": "^8.0.0",
-    "tailwindcss": "^3.4.1",
-    "tslib": "^2.3.0",
     "lottie-web": "^5.12.2",
-    "ngx-lottie": "^10.0.0"
+    "ngx-lottie": "^10.0.0",
+    "rxjs": "^7.8.1",
+    "tailwindcss": "^3.4.1",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.8",
