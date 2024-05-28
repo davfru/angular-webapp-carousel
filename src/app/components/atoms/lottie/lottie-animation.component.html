@@ -1,0 +1,12 @@
+<div [class]="mode === 'layer' ? 'lottie-layer-container' : 'lottie-draw-container'">
+    <ng-lottie
+      [options]="lottieConfig"
+      [height]="height.concat('px')"
+      [width]="width.concat('px')"
+      (animationCreated)="animationCreated($event)"
+      (segmentStart)="onSegmentStart()"
+      (complete)="onComplete()"
+      (loopComplete)="onLoopComplete()"
+    >
+    </ng-lottie>
+  </div>

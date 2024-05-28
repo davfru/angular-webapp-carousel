@@ -1,0 +1,15 @@
+<div class="modal-background" *ngIf="showModal" (click)="onOutsideClick()">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>{{ title }}</h2>
+      <span class="close-icon" (click)="onClose()">&times;</span>
+    </div>
+    <div class="modal-content">
+      <ng-content></ng-content>
+    </div>
+    <div class="flex space-x-2">
+      <app-button (onClickEvent)="closeModal()" [text]="'DELETE_ACCOUNT.cancel' | translate" classes="bg-medium-gray p-2 text-gray-400"> </app-button>
+      <app-button (onClickEvent)="onContinue()" [text]="'DELETE_ACCOUNT.confirm' | translate" classes="bg-dark-slate p-2 text-white"> </app-button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+app-loader {
+
+  .app-loader-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Utilizza la viewport width */
+    height: 100vh; /* Utilizza la viewport height */
+    z-index: 9999;
+    background-color: rgba(135, 135, 135, 0.50);
+
+    .loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+}

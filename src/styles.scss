@@ -1,0 +1,102 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --text-color: #464d4f;
+  --accent-color: #00798F;
+  --white: #FFFFFF;
+  --black: #2A2A2A;
+  --blue: #00798F;
+  --lightblue: #8EC1D4;
+  --darkblue: #04262E;
+  --superdarkblue: #011317;
+  --gray: #B3C5C6;
+  --lightgray: #C6C5C6;
+  --darkgray: #2A2A2A;
+  --radius: 10px;
+  --radius-small: 5px;
+  --shadow: 0px 3px 16px #00000025;
+  --font-principale: davis-sans, Arial, sans-serif;
+  --font-secondario: 'Roboto', Arial, sans-serif;
+  --size-p: 17px;
+  --lineH-p: 1.5;
+  --size-p-small: 15px;
+  --size-p-smaller: 12px;
+  --size-p-big: 19px;
+  --lineH-p-big: 1.4;
+  --size-p-check-form: 12px;
+  --size-h1: 52px;
+  --lineH-h1: 1.2;
+  --weight-h1: 500;
+  --size-h2: 42px;
+  --lineH-h2: 1.125;
+  --weight-h2: 500;
+  --size-h3: 34px;
+  --lineH-h3: 1.125;
+  --weight-h3: 500;
+  --size-h4: 26px;
+  --lineH-h4: 1.25;
+  --weight-h4: 500;
+  --size-h5: 24px;
+  --lineH-h5: 1.25;
+  --weight-h5: 500;
+  --size-h6: 20px;
+  --lineH-h6: 1.25;
+  --weight-h6: 500;
+  --w-container: 1280px;
+  --w-container-stretto: 768px;
+  --w-container-header: 1280px;
+  --width-btn: 80px;
+  --padding-container: 0 10px;
+  --padding-singolo: 10px;
+  --padding-colonne: 25px;
+  --padding-box: 40px;
+  --space-margin: 55px;
+}
+
+@keyframes scrollList {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+h1, h2, h3 {
+  letter-spacing: 0;
+  font-family: 'poppins-semibold';
+}
+
+p, a {
+  letter-spacing: 0;
+  font-family: 'poppins-regular';
+}
+
+label {
+  font-size: var(--size-p-big) !important;
+  color: var(--text-color);
+  line-height: var(--lineH-p-big);
+}

@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<div class="main-container">
+  <router-outlet></router-outlet>
+</div>
+
+<div *ngIf="stateManager.isLoading()">
+  <app-loader></app-loader>
+</div>
+
+<app-footer></app-footer>

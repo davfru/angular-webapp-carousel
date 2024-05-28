@@ -1,0 +1,45 @@
+{
+  "name": "angular-starter-project",
+  "version": "1.0.0",
+  "author": {
+    "name": "angular-starter-project",
+    "url": "https://codedincloud.com"
+  },
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "prestart": "npm run build",
+    "start": "ng serve"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^17.3.10",
+    "@angular/common": "^17.3.10",
+    "@angular/compiler": "^17.3.10",
+    "@angular/core": "^17.3.10",
+    "@angular/forms": "^17.3.10",
+    "@angular/platform-browser": "^17.3.10",
+    "@angular/platform-browser-dynamic": "^17.3.10",
+    "@angular/router": "^17.3.10",
+    "@dynamic-mapper/mapper": "^1.10.4",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "tailwindcss": "^3.4.1",
+    "tslib": "^2.3.0",
+    "lottie-web": "^5.12.2",
+    "ngx-lottie": "^10.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.8",
+    "@angular/cli": "~17.3.8",
+    "@angular/compiler-cli": "^17.3.10",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.5"
+  }
+}
