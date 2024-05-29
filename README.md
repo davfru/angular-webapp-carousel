@@ -1,9 +1,6 @@
 # Intro
 
-Angular v17 starter project with:
-
-- typescript
-- tailwind CSS
+Interactive horizontal image carousel
 
 # Setup and start
 
