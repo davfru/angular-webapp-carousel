@@ -1,20 +1,12 @@
 <div class="container my-4">
-    <div class="vertical-carousel" #carousel>
-        <div
-            *ngFor="let image of imageData; let i = index; trackBy: trackByFn"
-            (click)="pickImage(image)"
-            [ngStyle]="{
-                'background-image': 'url(' + image + ')',
-              }"
-            class="vertical-carousel-item"
-            >
-        </div>
+    <div class="horizontal-carousel" #carousel>
+      <div
+        *ngFor="let image of imageData; let i = index; trackBy: trackByFn"
+        (click)="pickImage(image)"
+        [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+        class="horizontal-carousel-item"
+      ></div>
     </div>
-    <div
-        (click)="closeImage()"
-        class="image-display"
-        #imageDisplay
-    >
-    </div>
+    <div (click)="closeImage()" class="image-display" #imageDisplay></div>
 </div>
   
